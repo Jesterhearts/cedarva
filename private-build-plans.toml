@@ -1,0 +1,421 @@
+[buildPlans.CedarvaMono]
+family = "Cedarva Mono"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.CedarvaMono.variants.design]
+one = "no-base"
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+four = "semi-open-serifless"
+five = "oblique-flat-serifless"
+six = "open-contour"
+seven = "straight-serifless-crossbar"
+eight = "two-circles"
+nine = "open-contour"
+zero = "slashed"
+capital-a = "straight-serifless"
+capital-b = "standard-serifless"
+capital-c = "bilateral-inward-serifed"
+capital-d = "standard-serifless"
+capital-e = "serifless"
+capital-f = "serifless"
+capital-g = "toothless-rounded-inward-serifed-hooked"
+capital-h = "serifless"
+capital-i = "serifed"
+capital-j = "serifless"
+capital-k = "symmetric-touching-serifless"
+capital-l = "serifless"
+capital-m = "hanging-serifless"
+capital-n = "standard-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "standing-serifless"
+capital-s = "serifless"
+capital-t = "serifless"
+capital-u = "toothless-rounded-serifless"
+capital-v = "straight-serifless"
+capital-w = "straight-flat-top-serifless"
+capital-x = "straight-serifless"
+capital-y = "straight-serifless"
+capital-z = "straight-serifless-with-crossbar"
+a = "double-storey-serifless"
+b = "toothed-serifed"
+c = "bilateral-inward-serifed"
+d = "tailed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless-crossbar-at-x-height"
+g = "single-storey-serifless"
+h = "straight-serifless"
+i = "serifed"
+j = "flat-hook-serifed"
+k = "symmetric-touching-serifless"
+l = "serifed"
+m = "serifless"
+n = "straight-serifless"
+p = "earless-rounded-serifless"
+q = "earless-corner-tailed-serifless"
+r = "hookless-serifless"
+s = "serifless"
+t = "flat-hook-short-neck2"
+u = "toothed-serifless"
+v = "straight-serifless"
+w = "straight-flat-top-serifless"
+x = "straight-serifless"
+y = "straight-serifless"
+z = "straight-serifless"
+lower-theta = "oval"
+tittle = "round"
+diacritic-dot = "round"
+punctuation-dot = "round"
+braille-dot = "round"
+tilde = "low"
+asterisk = "penta-mid"
+underscore = "high"
+caret = "medium"
+ascii-grave = "straight"
+ascii-single-quote = "straight"
+paren = "normal"
+brace = "curly"
+guillemet = "straight"
+number-sign = "slanted"
+ampersand = "closed"
+at = "fourfold"
+dollar = "through"
+cent = "through-cap"
+percent = "rings-continuous-slash"
+bar = "natural-slope"
+question = "smooth"
+pilcrow = "high"
+micro-sign = "toothless-rounded-serifless"
+decorative-angle-brackets = "middle"
+lig-ltgteq = "slanted"
+lig-neq = "slightly-slanted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-plus-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
+
+[buildPlans.CedarvaMono.ligations]
+inherits = "dlig"
+enables = ["eqeqeq"]
+
+# ============================================================
+# WEIGHTS
+# Matching Berkeley Mono's full weight axis:
+#   100 Thin · 200 ExtraLight · 300 Light · 350 SemiLight
+#   400 Regular · 500 Medium · 600 SemiBold · 700 Bold
+#   800 ExtraBold · 900 Black
+# ============================================================
+
+[buildPlans.CedarvaMono.weights.Thin]
+shape = 120
+menu = 100
+css = 100
+
+[buildPlans.CedarvaMono.weights.ExtraLight]
+shape = 220
+menu = 200
+css = 200
+
+[buildPlans.CedarvaMono.weights.Light]
+shape = 320
+menu = 300
+css = 300
+
+[buildPlans.CedarvaMono.weights.SemiLight]
+shape = 370
+menu = 350
+css = 350
+
+[buildPlans.CedarvaMono.weights.Regular]
+shape = 420
+menu = 400
+css = 400
+
+[buildPlans.CedarvaMono.weights.Medium]
+shape = 520
+menu = 500
+css = 500
+
+[buildPlans.CedarvaMono.weights.SemiBold]
+shape = 620
+menu = 600
+css = 600
+
+[buildPlans.CedarvaMono.weights.Bold]
+shape = 720
+menu = 700
+css = 700
+
+[buildPlans.CedarvaMono.weights.ExtraBold]
+shape = 820
+menu = 800
+css = 800
+
+[buildPlans.CedarvaMono.weights.Black]
+shape = 900
+menu = 900
+css = 900
+
+# ============================================================
+# WIDTHS
+# Matching Berkeley Mono's width axis (wdth 80–100):
+#   80 = Condensed     → shape 480  (600 × 0.80)
+#   90 = SemiCondensed → shape 540  (600 × 0.90)
+#   100 = Normal       → shape 600
+# ============================================================
+
+[buildPlans.CedarvaMono.widths.Condensed]
+shape = 480
+menu = 3
+css = "condensed"
+
+[buildPlans.CedarvaMono.widths.SemiCondensed]
+shape = 540
+menu = 4
+css = "semi-condensed"
+
+[buildPlans.CedarvaMono.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+# ============================================================
+# SLOPES
+# ============================================================
+
+[buildPlans.CedarvaMono.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.CedarvaMono.slopes.Italic]
+angle = 11.8
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+# ============================================================
+# METRICS
+# ============================================================
+
+[buildPlans.CedarvaMono.metricOverride]
+xHeight = 520
+cap = 690
+ascender = 740
+sb = 85
+
+accentWidth = 182
+accentClearance = 76
+accentHeight = 162
+accentStackOffset = 208
+
+leading = 1200
+winMetricAscenderPad = 72
+winMetricDescenderPad = 10
+parenSize = 860
+dotSize = 'blend(weight, [100, 110], [400, 125], [900, 150])'
+periodSize = 140
+
+essRatio = 1.06
+essRatioUpper = 1.06
+essRatioLower = 1.06
+essRatioQuestion = 1.06
+archDepth = 165
+smallArchDepth = 170
+
+# ============================================================
+# PROPORTIONAL (quasi-proportional) VARIANT
+# ============================================================
+
+[buildPlans.CedarvaProportional]
+family = "Cedarva Proportional"
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.CedarvaProportional.variants.design]
+one = "no-base"
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+four = "semi-open-serifless"
+five = "oblique-flat-serifless"
+six = "open-contour"
+seven = "straight-serifless-crossbar"
+eight = "two-circles"
+nine = "open-contour"
+zero = "slashed"
+capital-a = "straight-serifless"
+capital-b = "standard-serifless"
+capital-c = "bilateral-inward-serifed"
+capital-d = "standard-serifless"
+capital-e = "serifless"
+capital-f = "serifless"
+capital-g = "toothless-rounded-inward-serifed-hooked"
+capital-h = "serifless"
+capital-i = "serifed"
+capital-j = "serifless"
+capital-k = "symmetric-touching-serifless"
+capital-l = "serifless"
+capital-m = "hanging-serifless"
+capital-n = "standard-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "standing-serifless"
+capital-s = "serifless"
+capital-t = "serifless"
+capital-u = "toothless-rounded-serifless"
+capital-v = "straight-serifless"
+capital-w = "straight-flat-top-serifless"
+capital-x = "straight-serifless"
+capital-y = "straight-serifless"
+capital-z = "straight-serifless-with-crossbar"
+a = "double-storey-serifless"
+b = "toothed-serifed"
+c = "bilateral-inward-serifed"
+d = "tailed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless-crossbar-at-x-height"
+g = "single-storey-serifless"
+h = "straight-serifless"
+i = "serifed"
+j = "flat-hook-serifed"
+k = "symmetric-touching-serifless"
+l = "serifed"
+m = "serifless"
+n = "straight-serifless"
+p = "earless-rounded-serifless"
+q = "earless-corner-tailed-serifless"
+r = "hookless-serifless"
+s = "serifless"
+t = "flat-hook-short-neck2"
+u = "toothed-serifless"
+v = "straight-serifless"
+w = "straight-flat-top-serifless"
+x = "straight-serifless"
+y = "straight-serifless"
+z = "straight-serifless"
+lower-theta = "oval"
+tittle = "round"
+diacritic-dot = "round"
+punctuation-dot = "round"
+braille-dot = "round"
+tilde = "low"
+asterisk = "penta-mid"
+underscore = "high"
+caret = "medium"
+ascii-grave = "straight"
+ascii-single-quote = "straight"
+paren = "normal"
+brace = "curly"
+guillemet = "straight"
+number-sign = "slanted"
+ampersand = "closed"
+at = "fourfold"
+dollar = "through"
+cent = "through-cap"
+percent = "rings-continuous-slash"
+bar = "natural-slope"
+question = "smooth"
+pilcrow = "high"
+micro-sign = "toothless-rounded-serifless"
+decorative-angle-brackets = "middle"
+
+[buildPlans.CedarvaProportional.ligations]
+inherits = "dlig"
+enables = ["eqeqeq"]
+
+[buildPlans.CedarvaProportional.weights.Thin]
+shape = 120
+menu = 100
+css = 100
+
+[buildPlans.CedarvaProportional.weights.ExtraLight]
+shape = 220
+menu = 200
+css = 200
+
+[buildPlans.CedarvaProportional.weights.Light]
+shape = 320
+menu = 300
+css = 300
+
+[buildPlans.CedarvaProportional.weights.SemiLight]
+shape = 370
+menu = 350
+css = 350
+
+[buildPlans.CedarvaProportional.weights.Regular]
+shape = 420
+menu = 400
+css = 400
+
+[buildPlans.CedarvaProportional.weights.Medium]
+shape = 520
+menu = 500
+css = 500
+
+[buildPlans.CedarvaProportional.weights.SemiBold]
+shape = 620
+menu = 600
+css = 600
+
+[buildPlans.CedarvaProportional.weights.Bold]
+shape = 720
+menu = 700
+css = 700
+
+[buildPlans.CedarvaProportional.weights.ExtraBold]
+shape = 820
+menu = 800
+css = 800
+
+[buildPlans.CedarvaProportional.weights.Black]
+shape = 900
+menu = 900
+css = 900
+
+[buildPlans.CedarvaProportional.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.CedarvaProportional.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.CedarvaProportional.slopes.Italic]
+angle = 11.8
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.CedarvaProportional.metricOverride]
+xHeight = 520
+cap = 690
+ascender = 740
+sb = 85
+accentWidth = 182
+accentClearance = 76
+accentHeight = 162
+accentStackOffset = 208
+leading = 1200
+winMetricAscenderPad = 72
+winMetricDescenderPad = 10
+parenSize = 860
+dotSize = 'blend(weight, [100, 110], [400, 125], [900, 150])'
+periodSize = 140
+essRatio = 1.06
+essRatioUpper = 1.06
+essRatioLower = 1.06
+essRatioQuestion = 1.06
+archDepth = 165
+smallArchDepth = 170
